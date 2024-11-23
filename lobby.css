@@ -1,0 +1,53 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+#lobby-container{
+  height: 100vh;
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#form-container{
+  padding: 20px;
+  min-width: 400px;
+  max-width: 80%;
+  margin: auto;
+}
+#form__container__header{
+  font-size:x-large;
+  font-weight: bolder;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#form__content__wrapper{
+  margin-top: 30px;
+}
+
+
+#invitation{
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  outline: none;
+}
+.btn{
+  border: none;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  width: 100%;
+  margin-top: 30px;
+  padding: 15px;
+  font-size: 14px;
+  font-weight: 600;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  cursor: pointer;
+}
